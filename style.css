@@ -1,0 +1,126 @@
+@charset "UTF-8";
+
+/* ==========================================
+汎用
+========================================== */
+
+* {
+    height: auto;
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans JP';
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+/* ========================
+画像
+========================*/
+
+/* 画像 */
+
+
+  
+/* ========================
+/画像
+========================*/
+
+
+/* ==========================================
+/汎用
+========================================== */
+
+/* ==========================================
+タブ
+========================================== */
+
+ul,li,div,figure,figcaption,p{
+    margin: 0;
+    padding:0;
+}
+
+li{
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+.inner{
+    width:700px;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+
+header{
+    margin-bottom: 20px;
+}
+
+header ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header ul li{
+    width: 25%;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+}
+
+header ul li a{
+    text-decoration: none;
+    color: #fff;
+    display: block;
+}
+
+header ul li a:hover,
+header ul li a.selected{
+    opacity: 0.5;
+}
+
+header ul li:first-child a{
+    background-color: #777;
+}
+
+header ul li:nth-child(2) a{
+    background-color: #666;
+}
+
+header ul li:nth-child(3) a{
+    background-color: #555;
+}
+
+header ul li:last-child a{
+    background-color: #444;
+}
+
+figure{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+figure p{
+    width:48%;
+}
+
+figure figcaption{
+    width: 48%;
+}
+
+.tab_contents:nth-child(even) figure p{
+    order: 1;
+}
+
+/* ==========================================
+/タブ
+========================================== */
